@@ -14,6 +14,10 @@ class SplachViewBody extends StatelessWidget {
         const SizedBox(
           height: 15,
         ),
+        const Text(
+          'Read free Books',
+          textAlign: TextAlign.center,
+        ),
       ],
     );
   }
