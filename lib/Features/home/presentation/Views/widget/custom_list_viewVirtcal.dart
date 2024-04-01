@@ -10,9 +10,12 @@ class CustomListImageView extends StatelessWidget {
       aspectRatio: 2.4 / 4,
       child: Container(
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(12),
-            image: const DecorationImage(
-                fit: BoxFit.fill, image: AssetImage(AssetsData.testImage))),
+          borderRadius: BorderRadius.circular(12),
+          image: const DecorationImage(
+            fit: BoxFit.fill,
+            image: AssetImage(AssetsData.testImage),
+          ),
+        ),
       ),
     );
   }
