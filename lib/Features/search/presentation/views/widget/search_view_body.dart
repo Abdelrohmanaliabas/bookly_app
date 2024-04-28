@@ -1,5 +1,4 @@
 import 'package:bookly_app/Features/home/presentation/Views/widget/best_seller_item_view.dart';
-import 'package:bookly_app/Features/home/presentation/Views/widget/list_best_seller.dart';
 import 'package:flutter/material.dart';
 
 class SearchViewBody extends StatelessWidget {
